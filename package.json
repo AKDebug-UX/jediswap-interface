@@ -103,7 +103,7 @@
     "react-error-overlay": "6.0.9"
   },
   "scripts": {
-    "dev": "vite --open",
+    "dev": "vite --open --force",
     "test": "vitest --ui",
     "build": "vite build",
     "production-build": "vite build",
@@ -130,7 +130,9 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "events": "^3.3.0",
+    "node-fetch": "^3.3.2",
     "vite-plugin-svgr": "^2.2.0"
   }
 }
